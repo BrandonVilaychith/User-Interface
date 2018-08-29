@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	/* border: 1px solid black; */
+	width: 85%;
+	margin: 0 auto;
+}
+
+/* border test */
+.section-1, .section-2 {
+	/* border: 1px solid blue; */
+}
+/* .section-1 div, .section-2 div {
+	border: 1px solid red;
+} */
+.mid-img-container {
+	/* border: 1px solid olivedrab; */
+}
+.intro-container {
+	height: 250px;
+	margin-top: 60px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+/* section divs / section1 section2 */
+.section-1 div {
+	display: inline-block;
+	width: 45%;
+}
+.section-1 div:first-child {
+	margin-right: 30px;
+}
+.section-2 div {
+	display: inline-block;
+	width: 33%;
+}
+.section-1, .section-2 {
+	margin: 50px 0;
+}
+.section-1 {
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+.section-2 {
+	border-bottom: 1px solid black;
+	padding-bottom: 55px;
+	margin-bottom: 40px;
+}
+/* center image */
+.mid-img-container {
+	text-align: center;
+	margin: 0 0;
+}
+
+.middle-img {
+	width: 90%;
+}
+/* Bottom section (address and footer) */
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 80px;
+}
+
+/* Intro Section */
+.intro {
+	display: inline-block;
+	width: 50%;
+}
+.intro-img {
+	display: inline-block;
+}
+.intro-img img {
+	width: 54%;
+}
+
+.logo {
+	display: block;
+}
+
+.intro h1 {
+	font-size: 60px;
+}
+
+.btn {
+	border: 3px solid black;
+	width: 150px;
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+
+/* nav */
+.header-container{
+	display: inline-block;
+	width: 70%;
+}
+
+header {	
+	height: 50px;
+
+}
+header nav a {
+	color: gray;
+	text-decoration: none; 
+	margin-right: 7%;
+}
+
+.logo-container{
+	display: inline-block;
+	width: 200px;
+	margin-left: 40px;
+}
